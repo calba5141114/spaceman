@@ -1,0 +1,31 @@
+Space_Man
+	
+	Step One:
+		
+		Give the user a rndm category out of a list of categrs.
+		
+		rand_index = random number
+		category_index = cats[rand_index]
+	
+	Step Two:
+		
+		The User is then given a word out of the categories array
+		
+		wrd = words[category][rand_index]
+	
+	Step Three: 
+		
+		We initialize an array of already used letters and the wrong letters as well as create a function to check on the conditions of these
+		
+		used_letters[]
+		wrong_letters[]
+		
+		def check_if_letter_is_right(letter):
+			
+			if letter is in used_letters:
+				handle_err(err);
+			used_letters.push(letter)
+			if letter ! in wrd:
+				wrong_letters.push(letter)
+	Step Four:
+		check if wrong_letters[] is longer than 
